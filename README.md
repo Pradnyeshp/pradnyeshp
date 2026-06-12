@@ -1,5 +1,10 @@
 ## Hi there 👋
 
+
+![Snake animation](https://github.com/pradnyeshp/pradnyeshp/blob/output/github-contribution-grid-snake.svg)
+
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+
 <!--
 **Pradnyeshp/pradnyeshp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
