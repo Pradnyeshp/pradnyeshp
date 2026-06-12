@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pradnyesh Patil — Software Engineer at Meta">
+  <defs>
+    <!-- Sky: deep night fading into alpine teal -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1026"/>
+      <stop offset="45%" stop-color="#16324a"/>
+      <stop offset="80%" stop-color="#1d5c63"/>
+      <stop offset="100%" stop-color="#2c8c6e"/>
+    </linearGradient>
+    <!-- Mountain layer gradients -->
+    <linearGradient id="mFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#27425c"/>
+      <stop offset="100%" stop-color="#1a2c40"/>
+    </linearGradient>
+    <linearGradient id="mMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c3a4e"/>
+      <stop offset="100%" stop-color="#122636"/>
+    </linearGradient>
+    <linearGradient id="mNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2433"/>
+      <stop offset="100%" stop-color="#0a1722"/>
+    </linearGradient>
+    <!-- Lake -->
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d6e6a"/>
+      <stop offset="100%" stop-color="#0c2030"/>
+    </linearGradient>
+    <!-- Glow for moon and text -->
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="mist" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="320" fill="url(#sky)"/>
+
+  <!-- Twinkling stars -->
+  <g fill="#ffffff">
+    <circle cx="90"  cy="42"  r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="78"  r="1.2"><animate attributeName="opacity" values="1;0.15;1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="30"  r="1.8"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="455" cy="64"  r="1.1"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="585" cy="26"  r="1.5"><animate attributeName="opacity" values="0.25;1;0.25" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="58"  r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="36"  r="1.7"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="935" cy="84"  r="1.1"><animate attributeName="opacity" values="0.85;0.15;0.85" dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="44" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="70" r="1.3"><animate attributeName="opacity" values="1;0.25;1" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="155" cy="120" r="1.0"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="5.0s" repeatCount="indefinite"/></circle>
+    <circle cx="510" cy="105" r="1.0"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.7s" repeatCount="indefinite"/></circle>
+    <circle cx="890" cy="115" r="1.0"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="4.0s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Shooting star -->
+  <g opacity="0.9">
+    <line x1="0" y1="0" x2="46" y2="14" stroke="#cfeee0" stroke-width="1.6" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="1250,20; -150,140" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0.9;0" keyTimes="0;0.1;0.25;0.35" dur="7s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Moon with glow -->
+  <circle cx="1010" cy="66" r="26" fill="#eafff5" opacity="0.25" filter="url(#soft)"/>
+  <circle cx="1010" cy="66" r="17" fill="#eafff5"/>
+  <circle cx="1016" cy="61" r="4"  fill="#cfe9dc" opacity="0.6"/>
+  <circle cx="1004" cy="72" r="3"  fill="#cfe9dc" opacity="0.5"/>
+
+  <!-- Far mountain range (slow drift) -->
+  <path fill="url(#mFar)" d="M0,200 L90,140 L160,185 L250,118 L330,178 L420,128 L500,182 L590,135 L660,180 L760,122 L840,176 L930,132 L1010,180 L1100,140 L1200,190 L1200,320 L0,320 Z">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -18,0; 0,0" dur="26s" repeatCount="indefinite"/>
+  </path>
+  <!-- Snow caps on far peaks -->
+  <g fill="#e8f6ef" opacity="0.85">
+    <path d="M250,118 L268,134 L256,132 L246,140 L236,131 Z"/>
+    <path d="M420,128 L436,142 L426,140 L416,148 L406,140 Z"/>
+    <path d="M760,122 L778,138 L766,136 L756,144 L746,135 Z"/>
+    <path d="M930,132 L946,146 L936,144 L926,152 L916,144 Z"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -18,0; 0,0" dur="26s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Mid mountain range -->
+  <path fill="url(#mMid)" d="M0,232 L120,164 L210,222 L320,150 L430,224 L540,168 L640,226 L750,156 L860,224 L960,172 L1070,226 L1200,176 L1200,320 L0,320 Z">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 14,0; 0,0" dur="20s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#dff2e8" opacity="0.9">
+    <path d="M320,150 L342,170 L328,167 L316,177 L304,168 Z"/>
+    <path d="M750,156 L772,176 L758,173 L746,183 L734,174 Z"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 14,0; 0,0" dur="20s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Drifting mist bands -->
+  <ellipse cx="300" cy="238" rx="260" ry="22" fill="#bfe8d8" opacity="0.10" filter="url(#mist)">
+    <animateTransform attributeName="transform" type="translate" values="-80,0; 120,0; -80,0" dur="22s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="850" cy="248" rx="300" ry="20" fill="#bfe8d8" opacity="0.12" filter="url(#mist)">
+    <animateTransform attributeName="transform" type="translate" values="100,0; -140,0; 100,0" dur="28s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Near ridge with pines -->
+  <path fill="url(#mNear)" d="M0,268 L80,236 L150,262 L240,228 L330,264 L430,234 L520,266 L620,232 L710,264 L810,236 L900,266 L1000,238 L1090,264 L1200,240 L1200,320 L0,320 Z"/>
+  <g fill="#0a1f1a">
+    <path d="M70,268 l8,-20 l8,20 z M84,268 l7,-15 l7,15 z"/>
+    <path d="M250,262 l9,-22 l9,22 z M266,262 l7,-16 l7,16 z"/>
+    <path d="M455,266 l8,-20 l8,20 z"/>
+    <path d="M640,262 l9,-22 l9,22 z M656,262 l7,-15 l7,15 z"/>
+    <path d="M845,266 l8,-19 l8,19 z"/>
+    <path d="M1035,262 l9,-21 l9,21 z M1051,262 l7,-15 l7,15 z"/>
+  </g>
+
+  <!-- Lake with subtle shimmer -->
+  <rect x="0" y="284" width="1200" height="36" fill="url(#lake)"/>
+  <g stroke="#9fe8cf" stroke-width="1" opacity="0.35">
+    <line x1="140" y1="296" x2="240" y2="296"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="420" y1="304" x2="560" y2="304"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="5s" repeatCount="indefinite"/></line>
+    <line x1="700" y1="294" x2="820" y2="294"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="4.6s" repeatCount="indefinite"/></line>
+    <line x1="950" y1="306" x2="1100" y2="306"><animate attributeName="opacity" values="0.45;0.1;0.45" dur="5.4s" repeatCount="indefinite"/></line>
+  </g>
+  <!-- Moon reflection -->
+  <ellipse cx="1010" cy="300" rx="22" ry="4" fill="#eafff5" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.45;0.2" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Name + subtitle (fade/rise in) -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="118" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="2">
+      Pradnyesh Patil
+      <animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/>
+    </text>
+    <text x="600" y="118" font-size="52" font-weight="800" fill="#7df2c5" opacity="0.25" filter="url(#soft)" letter-spacing="2">Pradnyesh Patil</text>
+    <text x="600" y="152" font-size="19" font-weight="500" fill="#bfe8d8" letter-spacing="4">
+      SOFTWARE ENGINEER @ META  ·  EX-AWS  ·  8+ YEARS
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4;1" dur="2.4s" fill="freeze"/>
+    </text>
+  </g>
+</svg>
