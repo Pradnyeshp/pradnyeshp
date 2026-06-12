@@ -1,6 +1,6 @@
 <!-- ════════════════ ANIMATED HEADER ════════════════ -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:8E2DE2,25:4A00E0,50:00C9FF,75:00F5A0,100:92FE9D&text=Pradnyesh%20Patil&textBg=false&fontColor=FFFFFF&fontSize=50&fontAlign=50&fontAlignY=35&animation=twinkling&desc=Software%20Engineer%20@%20Meta%20%7C%20Ex-AWS%20%7C%208%2B%20Years&descSize=20&descAlign=50&descAlignY=55&stroke=00000000"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:8E2DE2,25:4A00E0,50:00C9FF,75:00F5A0,100:92FE9D&text=Pradnyesh%20Patil&textBg=false&fontColor=FFFFFF&fontSize=46&fontAlign=50&fontAlignY=32&animation=twinkling&desc=Software%20Engineer%20@%20Meta%20%7C%20Ex-AWS%20%7C%208%2B%20Years&descSize=20&descAlign=50&descAlignY=52&stroke=00000000"/>
 </p>
 
 <p align="center">
@@ -58,65 +58,32 @@ public:
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 
-## 💼 Professional Experience
+## 💼 Experience Snapshot
 
-> **8+ years** building reliable, large-scale storage and cloud services — from industrial IoT platforms at AWS to exabyte-scale archival infrastructure at Meta.
+<div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=workers" width="0" height="0"/>
-      <h1>∞</h1>
-      <b>Meta</b>
-    </td>
-    <td>
-      <h3>Software Engineer — Archival Storage & Backup Infrastructure</h3>
-      <i>Feb 2024 – Present · Bellevue, WA</i>
-      <ul>
-        <li>Lead <b>reliability & data-integrity</b> for exabyte-scale archival storage: circuit breakers, metadata signing, deletion safety</li>
-        <li>Eliminated SPOFs across critical services; validator runs <b>millions of daily checks</b></li>
-        <li>Ship <b>autonomous AI agents</b> for on-call triage, build repair & multi-agent code review</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="120">
-      <h1>☁️</h1>
-      <b>Amazon (AWS)</b>
-    </td>
-    <td>
-      <h3>Software Development Engineer — IoT SiteWise</h3>
-      <i>Feb 2020 – Feb 2024 · Seattle, WA</i>
-      <ul>
-        <li>Designed & shipped the <b><code>externalId</code> feature</b>; led <b>full-stack delivery of Alarms</b> (Java + Step Functions/Lambda + React)</li>
-        <li>Cut latency by migrating sync APIs to <b>async processing</b> for large-scale industrial IoT data</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="120">
-      <h1>🏢</h1>
-      <b>Accenture</b>
-    </td>
-    <td>
-      <h3>Software Engineer</h3>
-      <i>Aug 2014 – Oct 2016 · India</i>
-      <ul>
-        <li>Built <b>TOEFL platform</b> features (Spring Boot, REST/SOAP) & automated test suites with Selenium</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="120">
-      <h1>🎓</h1>
-      <b>Education</b>
-    </td>
-    <td>
-      <b>M.S., Computer Software Engineering</b> — San Jose State University (2018 – 2019)<br/>
-      <b>B.E., Computer Science Engineering</b> — Savitribai Phule Pune University (2010 – 2014)
-    </td>
-  </tr>
-</table>
+| | Company | Role | Focus |
+|---|---------|------|-------|
+| ∞ | **Meta** · 2024–Now | Software Engineer | Exabyte-scale archival storage — reliability, data integrity & AI agents |
+| ☁️ | **Amazon (AWS)** · 2020–2024 | SDE, IoT SiteWise | Shipped `externalId` & full-stack Alarms; async APIs at industrial scale |
+| 🏢 | **Accenture** · 2014–2016 | Software Engineer | TOEFL platform — Spring Boot, REST/SOAP, test automation |
+
+<a href="https://www.linkedin.com/in/pradnyeshp/overlay/1780950110732/single-media-viewer/?profileId=ACoAACYqyL4B3jl1azZEUSI5TIvvFW8SH6Mr1CE">
+  <img src="https://img.shields.io/badge/📄_Full_details_in_my_Resume-00C9FF?style=for-the-badge" alt="Resume"/>
+</a>
+
+</div>
+
+## 🎓 Education
+
+<div align="center">
+
+| | Degree | University |
+|---|--------|------------|
+| 🎓 | **M.S., Computer Software Engineering** | San Jose State University |
+| 🎓 | **B.E., Computer Science Engineering** | Savitribai Phule Pune University |
+
+</div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 
