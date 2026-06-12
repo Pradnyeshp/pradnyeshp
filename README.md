@@ -1,10 +1,10 @@
-<!-- ════════════════ ANIMATED HEADER ════════════════ -->
+<!-- ════════════════ CUSTOM ANIMATED ALPINE BANNER ════════════════ -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:8E2DE2,25:4A00E0,50:00C9FF,75:00F5A0,100:92FE9D&text=Pradnyesh%20Patil&textBg=false&fontColor=FFFFFF&fontSize=46&fontAlign=50&fontAlignY=32&animation=twinkling&desc=Software%20Engineer%20@%20Meta%20%7C%20Ex-AWS%20%7C%208%2B%20Years&descSize=20&descAlign=50&descAlignY=52&stroke=00000000"/>
+  <img width="100%" src="./assets/banner.svg" alt="Pradnyesh Patil — Software Engineer @ Meta"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=21&duration=3000&pause=800&color=00C9FF&center=true&vCenter=true&multiline=false&width=900&height=45&lines=Exabyte-scale+archival+storage+%26+backups;Circuit+breakers+%E2%80%A2+Fault+injection+%E2%80%A2+De-SPOF;Zero+silent+corruption+%E2%80%A2+Metadata+signing;AI+agents+for+engineering+at+scale+%F0%9F%A4%96;Distributed+systems+that+survive+SEV0s+%F0%9F%94%A5" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=21&duration=3000&pause=800&color=38EF7D&center=true&vCenter=true&multiline=false&width=900&height=45&lines=Exabyte-scale+archival+storage+%26+backups;Circuit+breakers+%E2%80%A2+Fault+injection+%E2%80%A2+De-SPOF;Zero+silent+corruption+%E2%80%A2+Metadata+signing;AI+agents+for+engineering+at+scale+%F0%9F%A4%96;Distributed+systems+that+survive+SEV0s+%F0%9F%94%A5;Off+the+clock%3A+trails%2C+summits+%26+espresso+%E2%9B%B0%EF%B8%8F%E2%98%95" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -21,12 +21,12 @@
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
   </a>
   <a href="https://www.linkedin.com/in/pradnyeshp/overlay/1780950110732/single-media-viewer/?profileId=ACoAACYqyL4B3jl1azZEUSI5TIvvFW8SH6Mr1CE">
-    <img src="https://img.shields.io/badge/📄_Resume-00C9FF?style=for-the-badge&logoColor=white" alt="Resume"/>
+    <img src="https://img.shields.io/badge/📄_Resume-11998E?style=for-the-badge&logoColor=white" alt="Resume"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Pradnyeshp&style=for-the-badge&color=blueviolet&label=VISITORS" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Pradnyeshp&style=for-the-badge&color=2C5364&label=TRAIL+VISITORS" alt="Profile views"/>
 </p>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
 ## 🧑‍💻 `$ whoami`
 
@@ -35,7 +35,7 @@ class Pradnyesh final : public SeniorSoftwareEngineer {
 public:
     static constexpr auto company   = "Meta";
     static constexpr auto domain    = "Archival Storage & Backup Infrastructure";
-    static constexpr auto location  = "Seattle, WA 🌧️";
+    static constexpr auto basecamp  = "Seattle, WA 🌲⛰️";   // PNW: where engineers go to hike
     static constexpr auto scale     = "exabytes of data, millions of daily validations";
 
     void operate() noexcept {
@@ -48,15 +48,15 @@ public:
     // 8+ years across Meta, AWS & Accenture — distributed systems & cloud at scale
     [[nodiscard]] bool survives_sev0() const { return true; }
 
-    std::string fun_fact() const {
-        return compile("☕ espresso") == "💾 exabyte-scale infrastructure"
-            ? "Coffee in, fault-tolerant systems out. Conversion rate: 100%."
-            : "Error 418: I'm a teapot (never happens)";
+    void recharge() const {
+        hike ("alpine trails until the view fixes everything 🏔️");
+        brew ("espresso — the only dependency I never circuit-break ☕");
+        read ("a good book by the water 📚🌊");
     }
 };
 ```
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
 ## 💼 Experience Snapshot
 
@@ -69,7 +69,7 @@ public:
 | 🏢 | **Accenture** · 2014–2016 | Software Engineer | TOEFL platform — Spring Boot, REST/SOAP, test automation |
 
 <a href="https://www.linkedin.com/in/pradnyeshp/overlay/1780950110732/single-media-viewer/?profileId=ACoAACYqyL4B3jl1azZEUSI5TIvvFW8SH6Mr1CE">
-  <img src="https://img.shields.io/badge/📄_Full_details_in_my_Resume-00C9FF?style=for-the-badge" alt="Resume"/>
+  <img src="https://img.shields.io/badge/📄_Full_details_in_my_Resume-11998E?style=for-the-badge" alt="Resume"/>
 </a>
 
 </div>
@@ -85,7 +85,7 @@ public:
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
 ## ⚡ Large-Scale Challenges I'm Solving
 
@@ -122,7 +122,7 @@ public:
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
 ## 🛠️ Arsenal
 
@@ -169,17 +169,50 @@ public:
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## ⛰️ Beyond the Code
+
+<!-- Full-width alpine panorama -->
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&h=420&q=80" width="100%" alt="Alpine mountain range at dawn"/>
+</p>
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=600&h=400&q=80" width="100%" alt="Hiker on a mountain trail"/>
+      <h3>🥾 Hiking & The Outdoors</h3>
+      <p><sub>Happiest above the treeline. The PNW is my playground — alpine lakes, misty ridgelines, and trails where the only latency that matters is sunrise. <b>Distributed systems and mountains teach the same lesson: respect the terrain, plan for failure, pack redundancy.</b></sub></p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&h=400&q=80" width="100%" alt="Fresh espresso"/>
+      <h3>☕ Coffee, Obviously</h3>
+      <p><sub>Living in Seattle and loving coffee isn't a personality trait — it's compliance. Espresso in, fault-tolerant systems out. <b>Conversion rate: 100%. Uptime of my coffee habit: five nines.</b></sub></p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&h=400&q=80" width="100%" alt="Open book in warm light"/>
+      <h3>📚 Always Reading</h3>
+      <p><sub>From distributed-systems deep dives to fiction that has nothing to do with computers (on purpose). <b>Best ideas come from pages, not pull requests.</b> Current rotation: engineering, biographies, and whatever the trail audiobook is.</sub></p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <i>🌲 Weekend protocol: trailhead at dawn → summit coffee → book by an alpine lake → back before the on-call pager notices. 🌲</i>
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
 ## 📊 GitHub & LeetCode
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Pradnyeshp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradnyeshp&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Pradnyeshp&show_icons=true&theme=transparent&title_color=38ef7d&icon_color=11998e&text_color=8b949e&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradnyeshp&layout=compact&theme=transparent&title_color=38ef7d&text_color=8b949e&hide_border=true&langs_count=8" alt="Top languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Pradnyeshp&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <img src="https://streak-stats.demolab.com?user=Pradnyeshp&theme=dark&background=00000000&ring=38ef7d&fire=11998e&currStreakLabel=38ef7d&hide_border=true" alt="GitHub streak"/>
 </p>
 
 <p align="center">
@@ -189,10 +222,10 @@ public:
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pradnyeshp&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pradnyeshp&theme=github-compact&hide_border=true&area=true&color=38ef7d&line=11998e&point=38ef7d" alt="Contribution graph"/>
 </p>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
 ## 🐍 Contribution Snake
 
@@ -200,7 +233,7 @@ public:
   <img src="https://raw.githubusercontent.com/Pradnyeshp/pradnyeshp/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 </p>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
 ## 🤝 Let's Build Something Reliable
 
@@ -218,14 +251,14 @@ public:
     <img src="https://img.shields.io/badge/LeetCode_Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
   </a>
   <a href="https://www.linkedin.com/in/pradnyeshp/overlay/1780950110732/single-media-viewer/?profileId=ACoAACYqyL4B3jl1azZEUSI5TIvvFW8SH6Mr1CE">
-    <img src="https://img.shields.io/badge/📄_View_Resume-00C9FF?style=for-the-badge" alt="Resume"/>
+    <img src="https://img.shields.io/badge/📄_View_Resume-11998E?style=for-the-badge" alt="Resume"/>
   </a>
 </p>
 
 <p align="center">
-  <i>⚡ "It's not a bug — it's an undocumented resilience test." ⚡</i>
+  <i>⛰️ "Systems fail. Summits wait. Coffee solves both." ⛰️</i>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:8E2DE2,30:4A00E0,60:00C9FF,100:92FE9D&section=footer&animation=twinkling"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:0F2027,30:203A43,60:2C5364,85:11998e,100:38ef7d&section=footer&animation=twinkling"/>
 </p>
