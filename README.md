@@ -10,6 +10,7 @@
 
 ![Snake animation](https://github.com/pradnyeshp/pradnyeshp/blob/output/github-contribution-grid-snake.svg)
 ![snake gif](https://raw.githubusercontent.com/Pradnyeshp/pradnyeshp/output/github-contribution-grid-snake.svg)
+![grid snake animation](https://raw.githubusercontent.com/Pradnyeshp/pradnyeshp/output/github-contribution-grid-snake-dark.svg)
 
 <!--
 **Pradnyeshp/pradnyeshp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
