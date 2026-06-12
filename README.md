@@ -5,7 +5,7 @@
 ![Snake animation](https://github.com/pradnyeshp/pradnyeshp/blob/output/github-contribution-grid-snake.svg)
 ![snake gif](https://raw.githubusercontent.com/Pradnyeshp/pradnyeshp/output/github-contribution-grid-snake.svg)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pradnyeshp)](https://github.com/pradnyeshp/github-readme-stats)
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 
