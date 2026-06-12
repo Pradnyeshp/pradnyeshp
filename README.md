@@ -8,8 +8,6 @@
 
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
-![Snake animation](https://github.com/pradnyeshp/pradnyeshp/blob/output/github-contribution-grid-snake.svg)
-![snake gif](https://raw.githubusercontent.com/Pradnyeshp/pradnyeshp/output/github-contribution-grid-snake.svg)
 ![grid snake animation](https://raw.githubusercontent.com/Pradnyeshp/pradnyeshp/output/github-contribution-grid-snake-dark.svg)
 
 <!--
