@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="100%" preserveAspectRatio="none" role="img" aria-label="mountain divider">
+  <defs>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#11998e"/>
+      <stop offset="50%" stop-color="#38ef7d"/>
+      <stop offset="100%" stop-color="#11998e"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base ridgeline -->
+  <path d="M0,55 L80,30 L140,48 L220,18 L300,50 L380,26 L460,52 L540,14 L620,50 L700,28 L780,52 L860,20 L940,48 L1020,30 L1100,50 L1200,24"
+        fill="none" stroke="url(#ridge)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Soft glow under ridge -->
+  <path d="M0,55 L80,30 L140,48 L220,18 L300,50 L380,26 L460,52 L540,14 L620,50 L700,28 L780,52 L860,20 L940,48 L1020,30 L1100,50 L1200,24"
+        fill="none" stroke="#38ef7d" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" opacity="0.12"/>
+
+  <!-- Traveling shimmer along the ridge -->
+  <path d="M0,55 L80,30 L140,48 L220,18 L300,50 L380,26 L460,52 L540,14 L620,50 L700,28 L780,52 L860,20 L940,48 L1020,30 L1100,50 L1200,24"
+        fill="none" stroke="url(#shine)" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"
+        stroke-dasharray="90 1400">
+    <animate attributeName="stroke-dashoffset" values="1490;0" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Tiny snow caps that pulse -->
+  <g fill="#eafff5">
+    <circle cx="220" cy="18" r="2.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="540" cy="14" r="2.6"><animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="20" r="2.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
