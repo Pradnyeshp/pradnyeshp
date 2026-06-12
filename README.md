@@ -1,4 +1,6 @@
-## Hi there 👋
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&text=Hello&textBg=false&fontColor=FFFFFF&animation=scaleIn&fontAlign=50&fontSize=40&stroke=white&strokeWidth=10&descAlign=100&descAlignY=100"/>
+</p>
 
 ![Pradnyesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=pradnyeshp&show_icons=true&theme=dark)
 
