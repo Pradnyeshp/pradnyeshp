@@ -1,6 +1,7 @@
 ## Hi there 👋
 
 [![Pradnyesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=pradnyeshp)](https://github.com/pradnyeshp/github-readme-stats)
+![Pradnyesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=pradnyeshp&show_icons=true&theme=transparent)
 
 ![Snake animation](https://github.com/pradnyeshp/pradnyeshp/blob/output/github-contribution-grid-snake.svg)
 ![snake gif](https://raw.githubusercontent.com/Pradnyeshp/pradnyeshp/output/github-contribution-grid-snake.svg)
