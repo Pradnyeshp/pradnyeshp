@@ -115,15 +115,6 @@ I enjoy solving problems where correctness, scale, and reliability matter — es
 </tr>
 </table>
 
-<table>
-<tr>
-<td align="center" width="25%"><b>⛰️ 06:00</b><br/><sub>Alpine start initialized</sub></td>
-<td align="center" width="25%"><b>☕ 09:30</b><br/><sub>Coffee dependency available</sub></td>
-<td align="center" width="25%"><b>📚 20:15</b><br/><sub>Context window expanded</sub></td>
-<td align="center" width="25%"><b>✅ 23:59</b><br/><sub>Health check passed</sub></td>
-</tr>
-</table>
-
 ---
 
 ## ⚡ Large-Scale Challenges I Care About
@@ -222,23 +213,6 @@ Experience across AWS services, backend APIs, full-stack delivery, async process
 </td>
 </tr>
 </table>
-
----
-
-## 📌 Featured Focus Areas
-
-```mermaid
-graph LR
-    A[Distributed Systems] --> B[Reliability]
-    B --> C[Fault Injection]
-    B --> D[Circuit Breakers]
-    A --> E[Storage Infrastructure]
-    E --> F[Data Integrity]
-    E --> G[Backup Validation]
-    H[AI Agents] --> I[On-call Triage]
-    H --> J[Build Fixers]
-    H --> K[Code Review Automation]
-```
 
 ---
 
